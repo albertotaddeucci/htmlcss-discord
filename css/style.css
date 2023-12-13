@@ -178,6 +178,10 @@ nav .login {
     
 }
 
+p{
+    line-height: 1.5em;
+}
+
 
 
 .big-content {
@@ -190,6 +194,10 @@ nav .login {
     text-align: center;
 
         
+}
+
+.big-content h3{
+    margin: -10px;
 }
 
 .blue{
@@ -224,6 +232,8 @@ footer #footer-top .footer-links {
 
     max-width: 200px;
     padding-top: 30px;
+
+    color: white;
       
     
 }
@@ -234,6 +244,8 @@ footer #footer-top .footer-column {
 }
 
 footer h3{
+    
+
     font-size: 24px;
     font-weight: bold;
     color: #8ea1e1;
@@ -275,6 +287,16 @@ footer ul li:first-child{
     font-weight: bold;
 }
 
+#social img{
+    filter: invert();
+    width: 20px;
+}
+
+/* #lingua img{
+    filter: invert(); */
 
 
-/* fine sezione footer */
+#selettore{
+    filter: invert();
+    width: 10px;
+}
