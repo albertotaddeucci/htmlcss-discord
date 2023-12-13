@@ -7,7 +7,12 @@
 
 
 body{
-    font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+p{
+    line-height: 1.5em;
 }
 
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
@@ -33,7 +38,7 @@ header, section {
 
 
 .bg-gray {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 
@@ -43,7 +48,7 @@ header, section {
 nav {    
     padding: 10px ;
 
-    background-color: #3161e0;
+    background-color: #255ee9;
 }
 
 
@@ -73,7 +78,7 @@ nav .nav-links ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 12px;
+    gap: 30px;
 
     padding: 10px;
     
@@ -90,6 +95,7 @@ nav .nav-links ul li a{
 nav .login {
     width: 100px;
     text-align: right;
+    padding: 4px;
 }
 
 
@@ -172,17 +178,12 @@ nav .login {
     
 }
 
+
 .column-text h2{
     margin-bottom: 15px;
     font-size: 2em;
     
 }
-
-p{
-    line-height: 1.5em;
-}
-
-
 
 .big-content {
     display: flex;
@@ -196,8 +197,12 @@ p{
         
 }
 
+.big-content div img{
+    width: 390px;
+}
+
 .big-content h3{
-    margin: -10px;
+    margin: -15px;
 }
 
 .blue{
@@ -206,6 +211,14 @@ p{
     border-color: transparent;
 }
 
+.big-content p{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.big-content div:last-of-type{
+    padding-top: 20px;
+}
 /* fine sezioni grigie */
 
 
@@ -245,7 +258,6 @@ footer #footer-top .footer-column {
 
 footer h3{
     
-
     font-size: 24px;
     font-weight: bold;
     color: #8ea1e1;
@@ -277,7 +289,7 @@ footer ul{
     padding-left: 50px;
 
     list-style: none;
-    line-height: 1.5em;
+    line-height: 2em;
 
     color: white;
 }
@@ -287,16 +299,18 @@ footer ul li:first-child{
     font-weight: bold;
 }
 
-#social img{
+footer #social img{
     filter: invert();
     width: 20px;
 }
 
-/* #lingua img{
-    filter: invert(); */
 
 
-#selettore{
+footer #selettore{
     filter: invert();
     width: 10px;
+}
+
+footer .footer-links #bandierait{
+    width: 22px;
 }
