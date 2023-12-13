@@ -143,6 +143,7 @@ nav .login {
 /* fine sezione hero */
 
 
+
 /* sezioni grigie */
 
 
@@ -204,8 +205,7 @@ nav .login {
 
 footer {
     background-color: #23272a;
-    /* test */
-
+    
     padding-top: 8px;
 }
 
@@ -217,17 +217,35 @@ footer #footer-top {
 
 footer #footer-top .footer-links {
     display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    gap: 15px;
 
-    background-color: #f08080;
-    height: 500px;
-    width: 250px;
-    /* test */
+    max-width: 200px;
+    padding-top: 30px;
+      
+    
 }
 
 footer #footer-top .footer-column {
         
     flex-grow: 1;
 }
+
+footer h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8ea1e1;
+}
+
+footer .footer-links #social{
+    display: flex;
+    
+
+    gap: 25px;
+}
+
 
 footer #footer-bottom {
    
@@ -244,6 +262,7 @@ footer #footer-bottom {
 footer ul{
 
     padding: 30px;
+    padding-left: 50px;
 
     list-style: none;
     line-height: 1.5em;
