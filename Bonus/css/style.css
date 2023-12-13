@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+p{
+    line-height: 1.5em;
+}
+
+/* i container hanno una dimensione fissa,  centrati orizzontalmente */
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container-small {   
+
+    max-width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header, section {
+    padding: 40px 20px;
+}
+
+
+.bg-gray {
+    background-color: #f6f6f6;
+}
+
+
+
+
+/* sezione navbar */
+nav {    
+    padding: 10px ;
+
+    background-color: #255ee9;
+}
+
+
+
+nav .container {
+    
+    display: flex;
+
+}
+
+nav .logo {
+    
+    
+    padding-top: 4px;
+
+   
+}
+
+
+nav .nav-links {
+    flex-grow: 1;
+    
+    
+}
+
+nav .nav-links ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+
+    padding: 10px;
+    
+
+    
+}
+
+
+nav .nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .login {
+    width: 100px;
+    text-align: right;
+    padding: 4px;
+}
+
+
+.button{
+    padding: 8px 15px;
+   
+
+    background-color: white;
+    border-radius: 28px;
+    
+    border-color: transparent;
+    
+}
+
+.black{
+    color: white;
+    background-color: #23272a;
+    border-color: transparent;
+}
+/* fine sezione navbar */
+
+
+
+/* sezione hero */
+#hero {
+    background-image: url(../img/jumbo.png);
+    background-size:cover
+}
+
+#hero .container-small {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    max-width: 700px;
+    padding: 30px;
+
+    color: white;   
+    
+    
+}
+
+#hero .container-small p{
+    text-align: center;
+
+}
+
+
+
+/* fine sezione hero */
+
+/* onde */
+.wave{
+    width: 100%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(159deg) brightness(111%) contrast(93%);
+    margin-bottom: -10px;
+}
+
+.white{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+/* sezioni grigie */
+
+.row {
+    display: flex;
+}
+
+.column-image {      
+   
+   
+    flex-grow: 1;
+}
+
+.column-text {
+    
+    width: 400px;
+
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+
+    font-size: 1em;
+    
+   
+    
+}
+
+
+.column-text h2{
+    margin-bottom: 15px;
+    font-size: 2em;
+    
+}
+
+.big-content {
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    text-align: center;
+
+        
+}
+
+.big-content div img{
+    width: 390px;
+}
+
+.big-content h3{
+    margin: -15px;
+}
+
+.blue{
+    background-color: #8ea1e1;
+    color: white;
+    border-color: transparent;
+}
+
+.big-content p{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.big-content div:last-of-type{
+    padding-top: 20px;
+}
+/* fine sezioni grigie */
+
+
+/* sezione footer */
+
+footer {
+    background-color: #23272a;
+    
+    padding-top: 8px;
+}
+
+
+
+footer #footer-top {
+    margin-bottom: 30px;
+}
+
+footer #footer-top .footer-links {
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    gap: 15px;
+
+    max-width: 200px;
+    padding-top: 30px;
+
+    color: white;
+      
+    
+}
+
+footer #footer-top .footer-column {
+        
+    flex-grow: 1;
+}
+
+footer h3{
+    
+    font-size: 24px;
+    font-weight: bold;
+    color: #8ea1e1;
+}
+
+footer .footer-links #social{
+    display: flex;
+    
+
+    gap: 25px;
+}
+
+
+footer #footer-bottom {
+   
+
+    margin-top: 16px;
+}
+
+footer #footer-bottom {
+    justify-content: space-between;
+
+    padding: 16px 0;
+}
+
+footer ul{
+
+    padding: 30px;
+    padding-left: 50px;
+
+    list-style: none;
+    line-height: 2em;
+
+    color: white;
+}
+
+footer ul li:first-child{
+    color: #8ea1e1;
+    font-weight: bold;
+}
+
+footer #social img{
+    filter: invert();
+    width: 20px;
+}
+
+
+
+footer #selettore{
+    filter: invert();
+    width: 10px;
+}
+
+footer .footer-links #bandierait{
+    width: 22px;
+}
