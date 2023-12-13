@@ -22,8 +22,7 @@ body{
 }
 
 .container-small {
-    background-color: #ee82ee;
-    /* test */
+    
 
     max-width: 800px;
 
@@ -111,20 +110,40 @@ nav .login {
     padding: 10px;
 }
 
+.black{
+    background-color: #23272a;
+    color: white;
+    border-color: #23272a;
+}
 /* fine sezione navbar */
 
 
 
 /* sezione hero */
 #hero {
-    background-color: #00008b;
-    /* test */
+    background-image: url(../img/jumbo.png);
+    background-size:cover
 }
 
 #hero .container-small {
-    height: 300px;
-    /* test */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    max-width: 700px;
+    padding: 30px;
+
+    color: white;   
+    
+    
 }
+
+#hero .container-small p{
+    text-align: center;
+
+}
+
 
 
 /* fine sezione hero */
