@@ -6,9 +6,13 @@
 /* reset */
 
 
+body{
+    font-family: sans-serif;
+}
+
 /* i container hanno una dimensione fissa,  centrati orizzontalmente */
 .container {
-    border: dashed 2px black;
+    /* border: dashed 2px black; */
     /* test */
 
     max-width: 1000px;
@@ -41,47 +45,72 @@ header, section {
 
 
 /* sezione navbar */
-nav {
-    background-color: #add8e6;
-    /* test */
+nav {    
     padding: 10px ;
+
+    background-color: #3161e0;
 }
 
 nav .container > * {
-    border: dashed 2px black;
-    /* test */
+    
 
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 nav .container {
-    background-color: #daa520;
-    /* test */
-
+    
     display: flex;
 
 }
 
 nav .logo {
-    width: 100px;
+    
+    
+    padding-top: 4px;
+
+   
 }
 
 
 nav .nav-links {
     flex-grow: 1;
+    
+    
 }
+
 nav .nav-links ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
     gap: 12px;
+
+    
+
+    padding: 10px;
+    
+
+    
 }
 
+
+nav .nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
 
 nav .login {
     width: 100px;
     text-align: right;
 }
+
+
+.button{
+    background-color: white;
+    border-radius: 28px;
+    border-color: white;
+    padding: 10px;
+}
+
 /* fine sezione navbar */
 
 
